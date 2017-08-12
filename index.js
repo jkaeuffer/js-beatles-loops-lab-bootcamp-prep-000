@@ -13,6 +13,7 @@ function johnLennonFacts(array) {
   for (let i = 0; i < array.length -1; i++) {
     crazyFacts.push(array[i] + crazyness)
   }
+  return crazyFacts
 };
 
 function iLoveTheBeatles(n) {
